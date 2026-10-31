@@ -316,6 +316,9 @@
             color: var(--color-text-secondary);
         }
 
+        .skills .teaching-year { width: 110px; }
+        @media (max-width: 600px) { .skills .teaching-item { flex-direction: column; gap: 4px; } }
+
         /* ---- CV ---- */
         .cv-section {
             text-align: center;
@@ -372,6 +375,7 @@
         <div class="nav-links">
             <a href="#research">Research</a>
             <a href="#teaching">Teaching</a>
+            <a href="#skills">Skills</a>
             <a href="#cv">CV</a>
             <a href="mailto:phurtado@fen.uchile.cl">Contact</a>
         </div>
@@ -486,6 +490,30 @@
                     <h4>Inequality, Poverty and Social Policy</h4>
                     <p>Master in Public Policy &middot; Universidad de Chile</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <div class="container skills">
+        <h2 class="section-title">Skills</h2>
+        <div>
+            <div class="teaching-item">
+                <div class="teaching-year">Programming</div>
+                <div class="teaching-info"><h4>R, Python, Matlab, Stata, LaTeX</h4></div>
+            </div>
+            <div class="teaching-item">
+                <div class="teaching-year">AI &amp; LLMs</div>
+                <div class="teaching-info">
+                    <h4>LLM-assisted research and coding workflows</h4>
+                    <p>Claude, ChatGPT, Claude Code, Codex &middot; LLM-based text analysis and NLP</p>
+                </div>
+            </div>
+            <div class="teaching-item">
+                <div class="teaching-year">Languages</div>
+                <div class="teaching-info"><h4>Spanish (Native), English (Fluent)</h4></div>
             </div>
         </div>
     </div>
